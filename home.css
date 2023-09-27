@@ -1,0 +1,46 @@
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/carrossel.css");
+@import url("styles/tópicos.css");
+@import url("styles/contato.css");
+@import url("styles/rodapé.css");
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;1,700&display=swap');
+:root {
+    --cor-de-fundo: #ebecee;
+    --branco: #ffffff;
+    --verde: rgb(7, 177, 7);
+    --azul-degrade: linear-gradient(97.54deg, #002f52 35.49%, #326589 165.37%);
+    --fonte-principal: 'Nunito';
+    --azul: #002f52;
+    --fonte-secundaria: 'Josefin Sans', sans-serif;
+    --preto: #000000;
+    --cinza: #474646;
+    --cinza-claro: #858585;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.container__imagem__logo {
+    width: 20%;
+    margin-left: 10%;
+}
+
+.container__imagem {
+    width: 20px;
+    margin: 0 0.5em;
+}
+
+.container__imagem2 {
+    margin: 0 20% 0 10%;
+}
+
+@media screen and (min-width:1728px) {
+    .container__imagem__logo {
+        width: 13%;
+    }
+}
